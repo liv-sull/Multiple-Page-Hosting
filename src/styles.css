@@ -1,0 +1,33 @@
+:root {
+  --h1-color: #2a2929;
+  --background: rgb(31, 137, 137);
+  --link-color: rgb(225, 212, 212);
+}
+.background {
+  background-color: var(--background);
+}
+
+h1 {
+  color: var(--h1-color);
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.home {
+  color: var(--link-color);
+  text-decoration: none;
+}
+.photo {
+  color: var(--link-color);
+  text-decoration: none;
+}
+.email {
+  color: var(--link-color);
+  text-decoration: none;
+}
+.link-warning {
+  text-decoration: none;
+}
